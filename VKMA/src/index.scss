@@ -1,0 +1,47 @@
+:root, body[scheme="bright_light"], [scheme="bright_light"] {
+  --timer_shadow: 0 2px 36px 0 rgb(0 0 0 / 10%), 0 0 0 0 rgb(0 0 0 / 10%);
+}
+
+:root, body[scheme="space_gray"], [scheme="space_gray"] {
+  --timer_shadow: 0 2px 32px 0 rgb(0 119 255 / 16%), 0 0 0 0 rgb(0 119 255 / 16%);
+}
+
+*:not(input):not(textarea):not(.Cell__children),
+::after,
+::before, .Div {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.Cell__dragger, .CellButton__content, .Link, .Slider__thumb, .Switch:not([disabled]) .vkuiSwitch__pseudo, .TabbarItem, button:not([disabled]), select:not([disabled]) {
+  cursor: pointer;
+}
+
+.Switch__self[disabled]+.Switch__pseudo, .TabbarItem--selected {
+  cursor: default;
+}
+
+.Alert .FormItem {
+  padding: 6px 0;
+}
+
+iframe {
+  display: none;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .LocationCard {
+    margin-top: 16px;
+
+    &::before {
+      border: none;
+    }
+  }
+}

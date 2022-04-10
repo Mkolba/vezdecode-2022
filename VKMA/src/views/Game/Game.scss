@@ -1,0 +1,10 @@
+#game_main {
+  .Buttons {
+    display: flex;
+    flex-direction: column;
+
+    .Button:first-child {
+      margin-bottom: 12px;
+    }
+  }
+}

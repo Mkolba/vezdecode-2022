@@ -1,0 +1,110 @@
+[00:18:59][SERVER][OK]: Сервер запущен
+[00:19:25][SERVER][OK]: Сервер запущен
+[00:19:57][http://192.168.8.120:5000/locations][CRITICAL]: Traceback (most recent call last):
+  File "C:\Users\mkolb\vezdecode\vezdecode-2022\vkma-backend\api\middlewares.py", line 59, in middleware
+    if is_valid(request.data['auth']):
+KeyError: 'auth'
+
+[00:20:46][http://192.168.8.120:5000/locations][CRITICAL]: Traceback (most recent call last):
+  File "C:\Users\mkolb\vezdecode\vezdecode-2022\vkma-backend\api\middlewares.py", line 59, in middleware
+    if is_valid(request.data['auth']):
+  File "C:\Users\mkolb\vezdecode\vezdecode-2022\vkma-backend\api\middlewares.py", line 37, in is_valid
+    hash_code = b64encode(HMAC(config.app_secret.encode(), urlencode(auth['subset'], doseq=True).encode(), sha256).digest())
+TypeError: string indices must be integers
+
+[00:20:59][http://192.168.8.120:5000/locations][CRITICAL]: Traceback (most recent call last):
+  File "C:\Users\mkolb\vezdecode\vezdecode-2022\vkma-backend\api\middlewares.py", line 59, in middleware
+    if is_valid(request.data['auth']):
+  File "C:\Users\mkolb\vezdecode\vezdecode-2022\vkma-backend\api\middlewares.py", line 37, in is_valid
+    hash_code = b64encode(HMAC(config.app_secret.encode(), urlencode(auth['subset'], doseq=True).encode(), sha256).digest())
+TypeError: string indices must be integers
+
+[00:22:14][SERVER][OK]: Сервер запущен
+[00:22:46][SERVER][OK]: Сервер запущен
+[00:22:48][http://192.168.8.120:5000/locations][CRITICAL]: Traceback (most recent call last):
+  File "C:\Users\mkolb\vezdecode\vezdecode-2022\vkma-backend\api\middlewares.py", line 77, in middleware
+    return await handler(request)
+  File "C:\Users\mkolb\vezdecode\vezdecode-2022\vkma-backend\venv\lib\site-packages\aiohttp\web_urldispatcher.py", line 931, in _handle
+    raise self._http_exception
+aiohttp.web_exceptions.HTTPMethodNotAllowed: Method Not Allowed
+
+[00:23:00][SERVER][OK]: Сервер запущен
+[00:24:42][SERVER][OK]: Сервер запущен
+[00:24:43][http://192.168.8.120:5000/locations][CRITICAL]: Traceback (most recent call last):
+  File "C:\Users\mkolb\vezdecode\vezdecode-2022\vkma-backend\api\middlewares.py", line 77, in middleware
+    return await handler(request)
+  File "C:\Users\mkolb\vezdecode\vezdecode-2022\vkma-backend\venv\lib\site-packages\aiohttp\web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+  File "C:\Users\mkolb\vezdecode\vezdecode-2022\vkma-backend\api\api.py", line 12, in post
+    cursor = self.request.app.database.cursor()
+AttributeError: 'Application' object has no attribute 'database'
+
+[00:24:55][SERVER][OK]: Сервер запущен
+[00:24:56][http://192.168.8.120:5000/locations][CRITICAL]: Traceback (most recent call last):
+  File "C:\Users\mkolb\vezdecode\vezdecode-2022\vkma-backend\api\middlewares.py", line 77, in middleware
+    return await handler(request)
+  File "C:\Users\mkolb\vezdecode\vezdecode-2022\vkma-backend\venv\lib\site-packages\aiohttp\web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+  File "C:\Users\mkolb\vezdecode\vezdecode-2022\vkma-backend\api\api.py", line 14, in post
+    return self.response(locations=[{'id': i[0], 'name': i[1]} for i in cursor.fetchall()])
+  File "C:\Users\mkolb\vezdecode\vezdecode-2022\vkma-backend\api\base.py", line 30, in response
+    logger.ok(f'Approved {self.data.method}', prefix='API')
+AttributeError: 'APIHandler' object has no attribute 'data'
+
+[00:27:20][SERVER][OK]: Сервер запущен
+[00:30:22][SERVER][OK]: Сервер запущен
+[00:31:27][SERVER][OK]: Сервер запущен
+[00:31:51][SERVER][OK]: Сервер запущен
+[00:32:16][SERVER][OK]: Сервер запущен
+[00:32:36][http://192.168.8.120:5000/api][CRITICAL]: Traceback (most recent call last):
+  File "C:\Users\mkolb\vezdecode\vezdecode-2022\vkma-backend\api\middlewares.py", line 77, in middleware
+    return await handler(request)
+  File "C:\Users\mkolb\vezdecode\vezdecode-2022\vkma-backend\venv\lib\site-packages\aiohttp\web_urldispatcher.py", line 954, in _iter
+    resp = await method()
+  File "C:\Users\mkolb\vezdecode\vezdecode-2022\vkma-backend\api\api.py", line 25, in post
+    self.request.app.db.conn.commit()
+AttributeError: 'sqlite3.Connection' object has no attribute 'conn'
+
+[00:32:48][SERVER][OK]: Сервер запущен
+[08:45:49][SERVER][OK]: Сервер запущен
+[08:55:34][SERVER][OK]: Сервер запущен
+[08:56:06][SERVER][OK]: Сервер запущен
+[08:56:22][SERVER][OK]: Сервер запущен
+[08:58:38][SERVER][OK]: Сервер запущен
+[08:58:56][SERVER][OK]: Сервер запущен
+[09:09:48][SERVER][OK]: Сервер запущен
+[09:11:34][SERVER][OK]: Сервер запущен
+[09:12:41][SERVER][OK]: Сервер запущен
+[09:13:26][SERVER][OK]: Сервер запущен
+[09:14:45][SERVER][OK]: Сервер запущен
+[09:15:08][SERVER][OK]: Сервер запущен
+[09:15:48][SERVER][OK]: Сервер запущен
+[09:16:04][SERVER][OK]: Сервер запущен
+[09:17:20][SERVER][OK]: Сервер запущен
+[09:21:33][SERVER][OK]: Сервер запущен
+[09:26:18][SERVER][OK]: Сервер запущен
+[09:42:21][SERVER][OK]: Сервер запущен
+[09:44:13][SERVER][OK]: Сервер запущен
+[09:47:17][SERVER][OK]: Сервер запущен
+[09:48:32][SERVER][OK]: Сервер запущен
+[09:49:13][SERVER][OK]: Сервер запущен
+[09:49:27][SERVER][OK]: Сервер запущен
+[09:50:01][SERVER][OK]: Сервер запущен
+[10:04:17][SERVER][OK]: Сервер запущен
+[10:05:12][SERVER][OK]: Сервер запущен
+[10:08:56][SERVER][OK]: Сервер запущен
+[10:11:39][SERVER][OK]: Сервер запущен
+[10:18:38][SERVER][OK]: Сервер запущен
+[10:20:21][SERVER][OK]: Сервер запущен
+[10:47:09][SERVER][OK]: Сервер запущен
+[10:50:43][SERVER][OK]: Сервер запущен
+[10:57:41][SERVER][OK]: Сервер запущен
+[11:02:42][SERVER][OK]: Сервер запущен
+[11:04:42][SERVER][OK]: Сервер запущен
+[11:05:31][SERVER][OK]: Сервер запущен
+[11:07:08][SERVER][OK]: Сервер запущен
+[11:17:50][SERVER][OK]: Сервер запущен
+[11:18:08][SERVER][OK]: Сервер запущен
+[11:24:23][SERVER][OK]: Сервер запущен
+[11:35:06][SERVER][OK]: Сервер запущен
+[11:37:42][SERVER][OK]: Сервер запущен

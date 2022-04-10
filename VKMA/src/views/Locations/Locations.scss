@@ -1,0 +1,39 @@
+.Locations {
+  margin-top: 16px;
+  margin-bottom: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.CircleButton {
+  z-index: 500 !important;
+  background-color: #3f8ae0;
+  color: white;
+  position: absolute !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50% !important;
+  height: 48px;
+  width: 48px;
+  right: 32px;
+  bottom: 70px;
+}
+
+@media screen and (min-width: 768px) {
+  .LocationRow {
+    display: flex;
+
+    .LocationCard {
+      &:first-child {
+        margin-right: 8px;
+      }
+
+      &:last-child {
+        margin-left: 8px;
+      }
+    }
+  }
+}

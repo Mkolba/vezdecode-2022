@@ -1,0 +1,50 @@
+[{
+    "id": 1,
+    "name": "Игрушка Персик",
+    "description": "Мягкий. Наелся пельменей.\n\nШирина: 14pt\nВысота: 32px",
+    "price": 80,
+    "quantity": 0,
+    "avatar": "https://sun3-8.userapi.com/impg/HfnDD4DSz-22D4m5CFneyXKrg_Di9qe_9hFR9Q/f_-pgQqGSFE.jpg?size=520x0&quality=95&sign=cd10445390d6d7f0e6fe9a653e37507a"
+  },
+  {
+    "id": 2,
+    "name": "Игрушка Спаркс",
+    "description": "Мягкий. Наелся пельменей.\n\nШирина: 14pt\nВысота: 32px",
+    "price": 120,
+    "quantity": 0,
+    "avatar": "https://sun3-11.userapi.com/impg/XQFY98mS7EdkpPxxd-sOebcDCCQ905f7ssGG7Q/1YWSLJUyyqY.jpg?size=520x0&quality=95&sign=cd13f63e2bf72de13f6cd23e5502ec21"
+  },
+  {
+    "id": 3,
+    "name": "Игрушка Сеня",
+    "description": "Мягкий. Наелся пельменей.\n\nШирина: 14pt\nВысота: 32px",
+    "price": 100,
+    "quantity": 0,
+    "avatar": "https://sun3-11.userapi.com/impg/00kgZsxcpeyhtKP30lD6XpWcqWaPVu8gjG-y2w/lAOrUWcDFFc.jpg?size=520x0&quality=95&sign=b7c2185ccfc3d7b71909747a4d7a8d95"
+  },
+  {
+    "id": 4,
+    "name": "Игрушка Сеня",
+    "description": "Мягкий. Наелся пельменей.\n\nШирина: 14pt\nВысота: 32px",
+    "price": 100,
+    "quantity": 0,
+    "avatar": "https://sun3-11.userapi.com/impg/00kgZsxcpeyhtKP30lD6XpWcqWaPVu8gjG-y2w/lAOrUWcDFFc.jpg?size=520x0&quality=95&sign=b7c2185ccfc3d7b71909747a4d7a8d95"
+  },
+  {
+    "id": 5,
+    "name": "Игрушка Сеня",
+    "description": "Мягкий. Наелся пельменей.\n\nШирина: 14pt\nВысота: 32px",
+    "price": 100,
+    "quantity": 0,
+    "avatar": "https://sun3-11.userapi.com/impg/00kgZsxcpeyhtKP30lD6XpWcqWaPVu8gjG-y2w/lAOrUWcDFFc.jpg?size=520x0&quality=95&sign=b7c2185ccfc3d7b71909747a4d7a8d95"
+  }
+,
+  {
+    "id": 6,
+    "name": "Игрушка Сеня",
+    "description": "Мягкий. Наелся пельменей.\n\nШирина: 14pt\nВысота: 32px",
+    "price": 100,
+    "quantity": 0,
+    "avatar": "https://sun3-11.userapi.com/impg/00kgZsxcpeyhtKP30lD6XpWcqWaPVu8gjG-y2w/lAOrUWcDFFc.jpg?size=520x0&quality=95&sign=b7c2185ccfc3d7b71909747a4d7a8d95"
+  }
+]
